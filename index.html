@@ -3,9 +3,13 @@
         <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
+
+        <script src="https://kit.fontawesome.com/48d4986649.js" crossorigin="anonymous"></script>
+
         <title>Laijie Ji | Portfolio</title>
+
     </head>
 
     <body id="background">
@@ -13,20 +17,57 @@
             <div class="topnav">
                 <div id="mainIcon"><a href="#"><img id="logo" src="./resources/image0.jpeg"></a></div>
                 <div class="navButtons">
-                    <div class="navbaritem"><a  href="">Projects</a></div>
-                    <div class="navbaritem"><a  href="">Resume</a></div>
+                    <div class="navbaritem"><a href="#Aboutme">About me</a></div>
+                    <div class="navbaritem"><a  href="#Resume">Resume</a></div>
+                    <div class="navbaritem"><a  href="#Projects">Projects</a></div>
                 </div>
             </div>
         </nav>
         <main>
             <section>
+                <div style="display: flex; justify-content: center; padding: 10px;">
+                    <div class="subsection" style="padding: 30px; border-radius: 10px; flex-shrink: 0; width: 45%;">
+                        <h1 id="Aboutme">
+                            About me
+                        </h1>
+                        <p>
+                            Hi! My name is Laijie, and I am a 2nd year Computer Science student at the UPV.
+                            <br>
+                            Also, I am currently having an internship in <a href="https://ebhealth3.es/" target="_blank">EBHealth3</a>, 
+                            while being a member of the <a href="https://www.cpupv.es" target="_blank">Competitive Programming UPV's</a> Core Team.
+                        </p>
+                        <p>
+                            Having a drive for self improvement, I am constantly looking for new challenges and goals that force me to try my best and 
+                            push my limits. 
+                        </p>
+                    </div>
+                </div> 
+            </section>
+            <section class="subsection" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 10px;">
+                <header>
+                    <div>
+                        <h1 style="text-align: center" id="Resume">
+                            Resume
+                        </h1>
+                        <div>
+                            <button style="width: 200px; height: 50px; background-color: #8b95d1; border-color: #3d4675; border-radius: 10px;
+                            padding: 15px; font-family: 'Kanit', sans-serif; color: #202644">
+                                <i class="fa-solid fa-download fa-xl" style="color: #3d4675; height: 30px;"></i> 
+                                &nbsp Download me
+                            </button>
+                        </div>
+                    </div>
+                </header>
                 
             </section>
-            <header>
-
-            </header>
-            <section>
-                <p class="terminal">Hola hola</p>
+            <section class="subsection" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 10px;">
+                <header>
+                    <div class="subsection" style="padding: 30px;">
+                        <h1 style="text-align: center;" id="Projects">
+                            Projects
+                        </h1>
+                    </div>
+                </header>
             </section>
 
         </main>
