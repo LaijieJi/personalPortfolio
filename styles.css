@@ -11,12 +11,29 @@ h1 {
     background-color: #202644;
 }
 
-.subsection {
+#about{
     background-color: #424769;
     font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-size: 22px;
     color: whitesmoke;
+    padding: 30px; 
+    border-radius: 10px; 
+    flex-shrink: 0; 
+    width: 45%;
+}
+
+.subsection{
+    background-color: #424769;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: whitesmoke;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px;
 }
 
 nav {
